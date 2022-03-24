@@ -417,14 +417,14 @@
   padding: 0;
   margin: 24px 0;
   /* background-color: #e1e4e8; */
-  background-color: #14F078;
+  background-color: #FF003F;
   border: 0;
 }
 
 .markdown-body blockquote {
   padding: 0 1em;
   color: #6a737d;
-  border-left: 0.25em solid #14F078;
+  border-left: 0.25em solid #FF003F;
 }
 
 .markdown-body blockquote>:first-child {
