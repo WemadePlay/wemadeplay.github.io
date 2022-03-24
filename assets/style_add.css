@@ -1,0 +1,259 @@
+#cover {
+    padding: 0;
+}
+
+#cover > * {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(12, 12, 48, 0.3);
+    overflow: hidden;
+    z-index: 1;
+}
+
+#cover-fitter {
+    height: 310px;
+}
+
+#cover h1, #cover p {
+    width: 100%; /* @@iolo */
+    /* max-width: 780px; */
+    margin: 0 auto;
+    color: #fff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#cover h1 {
+    font-size: 36px;
+    line-height: 52px; /* 52px = 36(font-size) + 16(line-spacing) */
+}
+
+#cover p {
+    font-size: 14px;
+    line-height: 22px; /* 22px = 14(font-size) + 8(line-spacing) @@iolo */
+}
+
+#cover h1 + p {
+    padding-top: 14px; /* 14px = 30 - 16(above line-spacing) */
+}
+
+#cover a,
+#cover a:link,
+#cover a:visited,
+#cover a:active,
+#cover a:hover {
+    color: #fff;
+}
+
+#cover video {
+    display: none; /* show/remove by script */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    object-fit: cover;
+}
+
+/* @@iolo */
+#cover cite {
+    display: block;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    font-size: 60%;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* navbar */
+
+#navbar {
+    display: table;
+    width: 100%;
+    padding: 0;
+    font-size: 14px;
+}
+
+#navbar > * {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+#add-content {
+    background-color: #fff;
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#negation-post-content {
+    position: relative;
+    margin: 0 40px;
+    padding: 70px 40px 100px 40px; /* 40(margin) + 40(padding) = 80 */
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 16px;
+    line-height: 28px; /* 28px = 16(font-size) + 12(line-spacing) */
+    text-align: justify;
+}
+
+#post-content {
+    position: relative;
+    margin: 0 40px;
+    padding: 70px 40px 100px 40px; /* 40(margin) + 40(padding) = 80 */
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 16px;
+    line-height: 28px; /* 28px = 16(font-size) + 12(line-spacing) */
+    text-align: justify;
+}
+
+#post-content h1 {
+    margin: 70px 0 30px 0;
+    font-size: 26px;
+}
+
+/* @@iolo */
+#post-content h2 {
+    margin: 50px 0 30px 0;
+    font-size: 22px;
+}
+
+#post-content h3 {
+    margin: 40px 0 30px 0;
+    font-size: 18px;
+}
+
+/* @@iolo */
+#post-content h4 {
+    margin: 36px 0 30px 0;
+    font-size: 17px;
+}
+
+/* @@iolo */
+#post-content h5 {
+    margin: 34px 0 30px 0;
+    font-size: 16px;
+}
+
+/* @@iolo */
+#post-content h6 {
+    margin: 32px 0 30px 0;
+    font-size: 15px;
+}
+
+/* @@iolo */
+#post-content h6 {
+    margin: 35px 0 30px 0;
+    font-size: 15px;
+}
+
+#post-content p {
+    margin: 28px 0 0 0;
+}
+
+#post-content ul,
+#post-content ol {
+    padding-left: 28px;
+    list-style-image: none;
+}
+
+#post-content blockquote {
+    margin: 28px 0;
+    padding: 28px;
+    border-left: 3px solid #FF003F;
+}
+
+#post-content blockquote > *:first-child {
+    margin: 0;
+}
+
+#post-content pre {
+    margin: 28px 0;
+    /*background: #f4f4f4;*/
+    border: 1px solid #d4d4d4;
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9em;
+    white-space: pre;
+    overflow: auto;
+    border-radius: 3px
+}
+
+#post-content hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #d4d4d4;
+    margin: 3.2em 0;
+    padding: 0
+}
+
+#post-content figure img {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+}
+
+#post-content figure figcaption {
+    margin: 0; /*margin-top: 10px; @@iolo */
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+#post-content a {
+    text-decoration: underline;
+    text-decoration-color: #e6e6e6;
+}
+
+#post-content > *:first-child {
+    margin: 0;
+}
+
+/* @@iolo */
+#post-content table {
+    margin: 1em auto;
+    border: 3px solid #f3cf00;
+}
+
+#post-content th {
+    border: 1px solid #d4d4d4;
+    background: #e6e6e6;
+    text-align: center;
+}
+
+#post-content td {
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+}
+
+#post-content .footnotes p {
+    margin: 0;
+    text-align: left;
+}
+
+/* @@iolo */
+#post-footer {
+    position: relative;
+    height: 120px;
+    margin: 0 80px;
+}
+
+#post-list .post-item {
+    margin: 0 15px;
+    padding: 15px 0;
+}

@@ -1,0 +1,24 @@
+<div id="sidebar">
+    <h1>
+        <a href="/">
+            <img src="/files/sidebar/ST_logo.png" width="200" alt>
+            <em>{{ site.title }}</em>
+        </a>
+    </h1>
+    <div class="nav">
+        <ul class="tt_category">
+            <li class>
+                <ul class="category_list">
+                    {% for categ in site.categories %}
+                        <li class>
+                            <a class="link_item" href="/category/{{ categ | first }}">{{ categ | first }}</a>
+                        </li>
+                    {% endfor %}
+                    <li class>
+                        <a class="link_item" href="http://corp.sundaytoz.com/">HOMEPAGE</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

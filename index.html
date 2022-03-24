@@ -1,0 +1,14 @@
+---
+layout: default
+pagination:
+    enabled: true
+---
+<div id="home-content" role="main">
+    <ul id="post-list">
+        {% for post in paginator.posts %}
+            {% include item.html %}
+        {% endfor %}
+    </ul>
+</div>
+{% include pagination.html %}
+

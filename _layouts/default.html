@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+    </head>
+    
+    <body id="tt-body-index" class="{{ page.layout | append: '-template' }}">
+
+        <div id="wrap">
+            {% include sidebar.html %}
+            <div id="contents">
+                <div id="dkContent" class="cont_skin" role="main">
+                    <div id="cMain">
+                        {{ content }}
+                    </div>
+                </div>
+                
+                <div class="clearfix"></div>
+    
+                <a href="#" id="back-to-top"></a>
+            </div>
+        </div>
+        
+    </body>
+</html>
