@@ -1,6 +1,6 @@
-# sundaytoz.github.io
+# wemadeplay.github.io
 
-https://sundaytoz.github.io
+https://wemadeplay.github.io
 
 ## 환경설정
 
