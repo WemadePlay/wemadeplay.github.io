@@ -1,9 +1,9 @@
-title: Sundaytoz 기술 블로그 
-email: help@sundaytoz.com
+title: Wemade Play 기술 블로그 
+email: help@wemadeplay.com
 description: >- # this means to ignore newlines until "baseurl:"
-  선데이토즈 사내 기술 블로그입니다.
+  위메이드 플레이 사내 기술 블로그입니다.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://sundaytoz.github.io
+url: https://wemadeplay.github.io
 timezone: Asia/Seoul
 
 # Build settings
